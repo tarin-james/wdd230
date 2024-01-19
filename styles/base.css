@@ -63,7 +63,10 @@ main h2 {
 
 .card {
   border: 1px solid black;
-  margin: 30px 25%;
+  margin: 30px 10%;
+  border-radius: 10px;
+  overflow: hidden;
+  
 }
 
 .info li {
