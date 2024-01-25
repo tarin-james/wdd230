@@ -20,6 +20,9 @@
   </head>
   <body>
     <header>
+      <div class="hamburger">
+        <a class="main-nav-toggle" href="#main-nav"><i>Menu</i></a>
+      </div>
       <h1>Tarin James</h1>
       <a href="index.html" id="profile_link">
         <img
@@ -27,14 +30,13 @@
           alt="Tarin James Profile Picture"
         />
       </a>
-      <nav>
+      <nav class="navigation">
         <a href="index.html">Home</a>
         <a href="lesson03/chamber-site-plan.html">Site Plan</a>
         <a href="chamber/">Chamber</a>
         <a href="https://www.byui.edu/">BYU-Idaho</a>
         <a href="https://www.churchofjesuschrist.org/study/scriptures"
-          >Scripture</a
-        >
+          >Scripture</a>
       </nav>
     </header>
     <main>
@@ -44,7 +46,7 @@
         <ul>
           <li>01:<a href="lesson01/holygrail.html"> Holy Layout</a></li>
           <li>02:<a href="lesson01/media-query.html"> Media Query </a>| <a href="lesson02/design-pricnciples.html">Design Principles Document</a></li>
-          <li><a href="">03: </a></li>
+          <li>03:<a href="lesson03/images/w3schools.png"> Combinators </a>| <a href="">Pseudo Element</a>| <a href="https://codepen.io/tarin-james/pen/abMVbZy">Responsive Menu</a></li>
           <li><a href="">04: </a></li>
           <li><a href="">05: </a></li>
           <li><a href="">06: </a></li>
@@ -62,6 +64,9 @@
           <li><a href="">Page visits</a></li>
         </ul>
       </section>
+      <div class="map"> 
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d46051.85268586013!2d-111.82938257079167!3d43.830104969183886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53540a4b807a98b1%3A0x4a49d8d1d2181c73!2sRexburg%2C%20ID!5e0!3m2!1sen!2sus!4v1706224620923!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
       <footer>
         <p id="year">&copy;</p>
         <p>Tarin James</p>
@@ -70,5 +75,6 @@
       </footer>
     </main>
     <script src="scripts/getdates.js"></script>
+    <script src="scripts/hamburgermenu.js"></script>
   </body>
 </html>
