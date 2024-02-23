@@ -1,0 +1,31 @@
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+footer p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    background: black;
+    animation: fade 3s;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

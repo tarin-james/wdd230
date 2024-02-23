@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="icon" href="images/favicon.ico">
+    <link rel="icon" href="images/favicon.ico" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Tarin James" />
-    <meta property="og:title" content="WDD230 Home Page">
-    <meta property="og:type" content="website">
-    <meta property="og:image" content="https://assets.simpleviewinc.com/simpleview/image/fetch/c_fill,h_540,q_75,w_650/https://assets.simpleviewinc.com/simpleview/image/upload/v1/clients/utahvalley/mountains_ee3dd5fe-c57e-4adb-8423-101a03b43b67.jpg">
-    <meta property="og:url" content="https://tarin-james.github.io/wdd230/">
+    <meta property="og:title" content="WDD230 Home Page" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:image"
+      content="https://assets.simpleviewinc.com/simpleview/image/fetch/c_fill,h_540,q_75,w_650/https://assets.simpleviewinc.com/simpleview/image/upload/v1/clients/utahvalley/mountains_ee3dd5fe-c57e-4adb-8423-101a03b43b67.jpg"
+    />
+    <meta property="og:url" content="https://tarin-james.github.io/wdd230/" />
     <meta
       name="description"
       content="This site is the home page to be used as a course assignment portal page for Tarin James' WDD 230 - Web Frontend Development class."
     />
-    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/normalize.css" />
     <link rel="stylesheet" href="styles/base.css" />
-    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/larger.css" />
     <title>Tarin James - WDD 230 - Web Frontend Development</title>
   </head>
   <body>
@@ -36,14 +39,23 @@
         <a href="chamber/">Chamber</a>
         <a href="https://www.byui.edu/">BYU-Idaho</a>
         <a href="https://www.churchofjesuschrist.org/study/scriptures"
-          >Scripture</a>
+          >Scripture</a
+        >
       </nav>
     </header>
     <main>
       <div id="hero-box">
         <picture id="hero-img">
-          <source media="(min-width:960px)" srcset="images/timpanogos-temple-large.webp">
-          <img src="images/timpanogos-temple-small.webp" alt="Timpanogos Temple" width="960" height="634">
+          <source
+            media="(min-width:960px)"
+            srcset="images/timpanogos-temple-large.webp"
+          />
+          <img
+            src="images/timpanogos-temple-small.webp"
+            alt="Timpanogos Temple"
+            width="960"
+            height="634"
+          />
         </picture>
         <div class="herolabel">
           <p>MT. Timpanogos Temple</p>
@@ -54,12 +66,35 @@
         <h3>Learning Activities</h3>
         <ul>
           <li>01:<a href="lesson01/holygrail.html"> Holy Layout</a></li>
-          <li>02:<a href="lesson01/media-query.html"> Media Query </a>| <a href="lesson02/design-pricnciples.html">Design Principles Document</a></li>
-          <li>03:<a href="lesson03/images/w3schools.png"> Combinators </a>| <a href="https://codepen.io/tarin-james/pen/RwdjPWp">Pseudo Element</a>| <a href="https://codepen.io/tarin-james/pen/abMVbZy">Responsive Menu</a></li>
-          <li>04:<a href="https://codepen.io/tarin-james/pen/ExMEjvG"> CSS Pseudo-classes</a></li>
+          <li>
+            02:<a href="lesson01/media-query.html"> Media Query </a>|
+            <a href="lesson02/design-pricnciples.html"
+              >Design Principles Document</a
+            >
+          </li>
+          <li>
+            03:<a href="lesson03/images/w3schools.png"> Combinators </a>|
+            <a href="https://codepen.io/tarin-james/pen/RwdjPWp"
+              >Pseudo Element</a
+            >|
+            <a href="https://codepen.io/tarin-james/pen/abMVbZy"
+              >Responsive Menu</a
+            >
+          </li>
+          <li>
+            04:<a href="https://codepen.io/tarin-james/pen/ExMEjvG">
+              CSS Pseudo-classes</a
+            >
+          </li>
           <li>05:<a href="lesson05/bom.html"> Book of Mormon Top 10 </a></li>
-          <li>06:<a href="lesson06/responisve-images.html"> Responsive Images </a>| <a href="lesson06/images/landscape.webp">WebP</a></li>
-          <li><a href="">07: </a></li>
+          <li>
+            06:<a href="lesson06/responisve-images.html"> Responsive Images </a
+            >| <a href="lesson06/images/landscape.webp">WebP</a>
+          </li>
+          <li>
+            07:<a href="lesson07/lazyload.html"> Lazy Loading </a>|
+            <a href="lesson07/bom.html">Web Storage API</a>
+          </li>
           <li><a href="">08: </a></li>
           <li><a href="">09: </a></li>
           <li><a href="">10: </a></li>
@@ -68,22 +103,34 @@
       <section class="card">
         <h3>Information</h3>
         <ul class="info">
-          <li><a href="">location</a></li>
-          <li><a href="">weather</a></li>
-          <li><a href="">Page visits</a></li>
+          <p>Location</p>
+          <p>Weather</p>
+          <p>
+            <span class="label">Page Visits: </span>
+            <span class="visits"></span>
+          </p>
         </ul>
       </section>
-      <div class="map"> 
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d46051.85268586013!2d-111.82938257079167!3d43.830104969183886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53540a4b807a98b1%3A0x4a49d8d1d2181c73!2sRexburg%2C%20ID!5e0!3m2!1sen!2sus!4v1706224620923!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <div class="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d46051.85268586013!2d-111.82938257079167!3d43.830104969183886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53540a4b807a98b1%3A0x4a49d8d1d2181c73!2sRexburg%2C%20ID!5e0!3m2!1sen!2sus!4v1706224620923!5m2!1sen!2sus"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
       </div>
       <footer>
         <p id="year">&copy;</p>
         <p>Tarin James</p>
         <p>Idaho</p>
-        <p id="lastModified">Last Modification: </p>
+        <p id="lastModified">Last Modification:</p>
       </footer>
     </main>
     <script src="scripts/getdates.js"></script>
     <script src="scripts/hamburgermenu.js"></script>
+    <script src="scripts/pagevisits.js"></script>
   </body>
 </html>
