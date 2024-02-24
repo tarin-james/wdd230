@@ -85,6 +85,9 @@
         transform: translateX(26px);
       }
       
+    #rexburg-images img:hover {
+        box-shadow: 0 0 11px black
+    }
     
 
 }
