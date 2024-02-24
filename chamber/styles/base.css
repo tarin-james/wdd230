@@ -359,7 +359,7 @@ footer p:nth-of-type(2) {
 .switch {
   position: relative;
   display: inline-block;
-  width: 60px;
+  width: 50px;
   height: 34px;
 }
 
@@ -400,13 +400,13 @@ input:checked + .slider {
 }
 
 input:focus + .slider {
-  box-shadow: 0 0 1px #2196F3;
+  box-shadow: 0 0 1px;
 }
 
 input:checked + .slider:before {
-  -webkit-transform: translateX(26px);
-  -ms-transform: translateX(26px);
-  transform: translateX(26px);
+  -webkit-transform: translateX(17px);
+  -ms-transform: translateX(17px);
+  transform: translateX(17px);
 }
 
 /* Rounded sliders */
@@ -416,4 +416,86 @@ input:checked + .slider:before {
 
 .slider.round:before {
   border-radius: 50%;
+
+}
+
+
+
+#history {
+  background-color: var(--thistle);
+  border-radius: 10px;
+  border: solid black;
+  text-align: center;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+#history p {
+  font-size: larger;
+}
+
+#demographics {
+  background-color: var(--thistle);
+  border-radius: 10px;
+  border: solid black;
+  text-align: center;
+  margin-bottom: 10px;
+  padding: 10px;
+  
+}
+
+#demographics p {
+  font-size: larger;
+}
+
+.content {
+  margin: 10px;
+}
+
+#visit {
+  background-color: var(--thistle);
+  border-radius: 10px;
+  border: solid black;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+#visit li {
+  font-size: larger;
+}
+
+#rexburg-images {
+  text-align: center;
+}
+
+#rexburg-images img{
+  display: flex;
+  text-align: center;
+  border-radius: 10px;
+  width: calc(100% - 20px);
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+#welcome{
+  background-color: var(--thistle);
+  border: solid black;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: xx-large;
+}
+
+#events {
+  background-color: var(--thistle);
+  border-radius: 10px;
+  border: solid black;
+  text-align: center;
+  padding: 10px;
+}
+
+#events li {
+  font-size: larger;
 }

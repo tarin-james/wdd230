@@ -17,6 +17,10 @@
         
     }
 
+    .switch {
+        width: 60px;
+    }
+
     nav a {
         padding: 10px;
     }
@@ -65,4 +69,22 @@
     iframe {
         width: 95%;    
     }
+
+    #discover {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #visit {
+        padding-bottom: 50px;
+    }
+
+    input:checked + .slider:before {
+        -webkit-transform: translateX(26px);
+        -ms-transform: translateX(26px);
+        transform: translateX(26px);
+      }
+      
+    
+
 }

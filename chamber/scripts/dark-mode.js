@@ -1,5 +1,5 @@
 const modeButton = document.querySelector("#dark-mode");
-const main = document.querySelector("main");
+const main = document.querySelector("body");
 const header = document.querySelector("header");
 const hamburger = document.querySelector(".main-nav-toggle");
 

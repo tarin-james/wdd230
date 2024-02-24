@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" href="images/favicon.webp" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Tarin James" />
+    <meta property="og:title" content="Rexburg Idaho Chamber of Commerce" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:image"
+      content="https://www.google.com/url?sa=i&url=http%3A%2F%2Fwww.delorum.com%2Flogo-portfolio-idaho-falls-rexburg&psig=AOvVaw1uZkY133h_NOnHXWAdv4ST&ust=1707001606307000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCPDs4NjijYQDFQAAAAAdAAAAABAE"
+    />
+    <meta
+      property="og:url"
+      content="https://tarin-james.github.io/wdd230/index.html"
+    />
+    <meta
+      name="description"
+      content="This site is for the Rexburg Idaho Chamber of Commerce"
+    />
+    <title>Rexburg Idaho Chamber of Commerce</title>
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/medium.css" />
+    <link rel="stylesheet" href="styles/larger.css" />
+  </head>
+  <body>
+    <header>
+      <label class="switch">
+        <input id="dark-mode" type="checkbox" />
+        <span class="slider round"></span>
+      </label>
+      <div class="hamburger">
+        <a class="main-nav-toggle" href="#main-nav"><i>Menu</i></a>
+      </div>
+      <img id="rexburg-logo" src="images/logo.webp" alt="Rexburg Logo" />
+      <h1>Rexburg</h1>
+      <h2>Chamber of Commerce</h2>
+      <img
+        id="idaho-flag"
+        src="images/idaho-flag.webp"
+        alt="Idaho State Flag"
+      />
+      <nav class="navigation">
+        <a href="index.html">Home</a>
+        <a href="discover.html">Discover</a>
+        <a href="directory.html">Directory</a>
+        <a href="join.html">Join</a>
+      </nav>
+    </header>
+    <main id="discover">
+      <section class="content">
+        <div id="welcome">
+          <p><span id="uservisit"></span></p>
+        </div>
+        <div id="history">
+          <h1>History of Rexburg</h1>
+          <p>
+            The city of Rexburg was founded in March 1883 when an intrepid group
+            of pioneers decided to settle along the banks of the Teton River.
+            They had been sent by church leaders in Salt Lake City, under the
+            direction of Thomas E. Ricks, to settle the Upper Snake River
+            Valley. The new community, named Rexburg after their leader (Ricks
+            being German for Rex or King) quickly attracted men and women eager
+            to bring industry and civilization to the West.
+          </p>
+        </div>
+        <div id="demographics">
+          <h1>Current Demographics</h1>
+          <p>Population in 2024: 41,272</p>
+          <p>
+            Rexburg is currently growing at a rate of 0.99% annually and its
+            population has increased by 4.69% since the most recent census,
+            which recorded a population of 39,423 in 2020.
+          </p>
+          <p>
+            According to the most recent ACS, the racial composition of Rexburg
+            was:
+          </p>
+          <p>White: 87.66%</p>
+          <p>Two or more races: 5.78%</p>
+          <p>Other race: 3.12%</p>
+          <p>Asian: 2.25%</p>
+          <p>Black or African American: 1.03%</p>
+          <p>Native American: 0.1%</p>
+          <p>Native Hawaiian or Pacific Islander: 0.06%</p>
+        </div>
+        <div id="visit">
+          <h1>Places to Visit in Rexburg</h1>
+          <li>Rexburg Temple</li>
+          <li>Gravity Factory</li>
+          <li>Legacy Flight Museum</li>
+          <li>Rexburg Rapids</li>
+          <li>Rexburg Nature Park</li>
+          <li>Yellowstone Bear World</li>
+        </div>
+        <div id="events">
+            <h1>Upcoming Events</h1>
+            <li>February 27th - Community Farmers Market</li>
+            <li>March 19th - Community Farmers Market</li>
+            <li>April 9th - Career Fair</li>
+            <li>May 1st - Community Farmers Market</li>
+            <li>June 19th - Rexburg Summer Fest</li>
+            <li>June 25th - Community Farmers Market</li>
+            <li>July 4th - Rexburg Independence Day Celebration</li>
+            <li>July 24th - Pioneer Day Celebration</li>
+        </div>
+      </section>
+      <picture id="rexburg-images">
+        <h1>Rexburg Images - Old and New</h1>
+        <img
+          src="images/old-burg.webp"
+          alt="old Rexburg main street"
+          loading="lazy"
+        />
+        <img
+          src="images/rexburg-romance-theater-min.webp"
+          alt="old Romance theater"
+          loading="lazy"
+        />
+        <img src="images/rexburg-old.webp" alt="old Rexburg" loading="lazy" />
+        <img src="images/rexburg-min.webp" alt="Rexburg" loading="lazy" />
+        <img
+          class="left-side"
+          src="images/rexburg-temple.webp"
+          alt="Rexburg Temple"
+          loading="lazy"
+        />
+        <img
+          class="left-side"
+          src="images/rexburg-newer-min.webp"
+          alt="Rexburg"
+          loading="lazy"
+        />
+      </picture>
+    </main>
+    <footer>
+      <img src="images/logo.webp" alt="Rexburg Logo" />
+      <h4>Rexburg Chamber Of Commerce</h4>
+      <p>Address: 1357 w yellowstone hw Rexburg, ID 83440</p>
+      <p>Rexburgchamberofcommerce@gmail.com</p>
+      <p>555-555-5555</p>
+      <p id="year" class="class-info">&copy;</p>
+      <p class="class-info">Tarin James</p>
+      <p class="class-info">WDD 230</p>
+      <p id="lastModified">Last Modification:</p>
+    </footer>
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/hamburgermenu.js"></script>
+    <script src="scripts/dark-mode.js"></script>
+    <script src="scripts/pagevisitation.js"></script>
+  </body>
+</html>
