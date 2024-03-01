@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" href="images/favicon.ico" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Tarin James" />
+    <meta property="og:title" content="WDD230 Home Page" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:image"
+      content="https://assets.simpleviewinc.com/simpleview/image/fetch/c_fill,h_540,q_75,w_650/https://assets.simpleviewinc.com/simpleview/image/upload/v1/clients/utahvalley/mountains_ee3dd5fe-c57e-4adb-8423-101a03b43b67.jpg"
+    />
+    <meta property="og:url" content="https://tarin-james.github.io/wdd230/" />
+    <meta
+      name="description"
+      content="This site is the home page to be used as a course assignment portal page for Tarin James' WDD 230 - Web Frontend Development class."
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/larger.css" />
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/form.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="hamburger">
+        <a class="main-nav-toggle" href="#main-nav"><i>Menu</i></a>
+      </div>
+      <h1>Tarin James</h1>
+      <a href="index.html" id="profile_link">
+        <img
+          src="images/profile-picture.webp"
+          alt="Tarin James Profile Picture"
+        />
+      </a>
+      <nav class="navigation">
+        <a href="index.html">Home</a>
+        <a href="lesson03/chamber-site-plan.html">Site Plan</a>
+        <a href="chamber/">Chamber</a>
+        <a href="https://www.byui.edu/">BYU-Idaho</a>
+        <a href="https://www.churchofjesuschrist.org/study/scriptures"
+          >Scripture</a
+        >
+      </nav>
+    </header>
+    <main>
+      <div id="formmessage"></div>
+      <form method="get" action="record.html" class="wf1">
+        <fieldset>
+          <legend>Login Info</legend>
+          <label
+            >Username* <input type="text" id="usrname" name="username" required
+          /></label>
+          <label
+            >Password*
+            <input type="password" id="pword" name="password" required
+          /></label>
+          <label
+            >Re-enter Password*
+            <input type="password" id="pword2" name="password2" required
+          /></label>
+          <label
+            >Email*
+            <input
+              type="email"
+              id="email"
+              name="email"
+              title="A valid byui.edu email address."
+              required
+              placeholder="example@byui.edu"
+              pattern="[a-zA-Z0-9_.\-]+@byui.edu"
+          /></label>
+          <label
+            >Page Rating
+            <input
+              type="range"
+              id="range"
+              name="range"
+              min="1"
+              max="10"
+              step="1"
+            />
+          </label>
+          <div class="rangeValue"></div>
+        </fieldset>
+        <input class="submit" type="submit" value="Create Account">
+      </form>
+    </main>
+    <footer>
+      <p id="year">&copy;</p>
+      <p>Tarin James</p>
+      <p>Idaho</p>
+      <p id="lastModified">Last Modification:</p>
+    </footer>
+    <script src="scripts/form.js"></script>
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/hamburgermenu.js"></script>
+  </body>
+</html>

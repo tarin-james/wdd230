@@ -1,0 +1,43 @@
+:root  {
+    --legend-color: blue;
+
+
+}
+
+input[name="email"]:required:valid {
+	background-color: #bed;
+}
+
+input[name="email"]:invalid {
+	background-color: #ffeeee;
+}
+
+h1, p {
+    text-align: center;
+}
+
+.wf1 legend {
+    color: var(--legend-color);
+}
+
+.wf1 fieldset {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-right: 35%;
+    margin-left: 35%;
+    border: 1px solid black;
+    border-radius: 6px;
+    }
+
+.wf1 label {
+    margin: 10px;
+}
+.rangeValue {
+    text-align: center;
+}
+.submit {
+    display: block;
+    margin: 10px auto;
+}
