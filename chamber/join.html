@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" href="images/favicon.webp" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Tarin James" />
+    <meta
+      property="og:title"
+      content="Rexburg Idaho Chamber of Commerce join page"
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:image"
+      content="https://www.google.com/url?sa=i&url=http%3A%2F%2Fwww.delorum.com%2Flogo-portfolio-idaho-falls-rexburg&psig=AOvVaw1uZkY133h_NOnHXWAdv4ST&ust=1707001606307000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCPDs4NjijYQDFQAAAAAdAAAAABAE"
+    />
+    <meta
+      property="og:url"
+      content="https://tarin-james.github.io/wdd230/index.html"
+    />
+    <meta
+      name="description"
+      content="This site is for the Rexburg Idaho Chamber of Commerce"
+    />
+    <title>Join Page</title>
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/medium.css" />
+    <link rel="stylesheet" href="styles/larger.css" />
+  </head>
+  <body>
+    <header>
+      <label class="switch">
+        <input id="dark-mode" type="checkbox" />
+        <span class="slider round"></span>
+      </label>
+      <div class="hamburger">
+        <a class="main-nav-toggle" href="#main-nav"><i>Menu</i></a>
+      </div>
+      <img id="rexburg-logo" src="images/logo.webp" alt="Rexburg Logo" />
+      <h1>Rexburg</h1>
+      <h2>Chamber of Commerce</h2>
+      <img
+        id="idaho-flag"
+        src="images/idaho-flag.webp"
+        alt="Idaho State Flag"
+      />
+      <nav class="navigation">
+        <a href="index.html">Home</a>
+        <a href="discover.html">Discover</a>
+        <a href="directory.html">Directory</a>
+        <a href="join.html">Join</a>
+      </nav>
+    </header>
+    <main>
+      <h1 id="join-title">Join The Chamber of Commerce Today!</h1>
+      <div id="join-content">
+        <form method="get" action="thankyou.html" class="join-form">
+          <fieldset>
+            <legend>Applicant Information</legend>
+            <label
+              >First Name* <input type="text" id="fname" name="fname" required
+            /></label>
+            <br />
+            <label
+              >Last Name* <input type="text" id="lname" name="lname" required
+            /></label>
+            <br />
+            <label
+              >Title / Position*
+              <input
+                type="text"
+                id="title"
+                name="title"
+                required
+                pattern="[A-Za-z -]{7,}"
+            /></label>
+            <br />
+            <label
+              >Email Address*
+              <input
+                type="email"
+                id="email"
+                name="email"
+                required
+                placeholder="someone@gmail.com"
+            /></label>
+            <br />
+            <label
+              >Phone Number* <input type="tel" id="phone" name="phone" required
+            /></label>
+            <br />
+            <label
+              >Business / Organizations Name*
+              <input type="text" id="organization" name="organization" required
+            /></label>
+            <br />
+            <label
+              >Last Name* <input type="text" id="lname" name="lname" required
+            /></label>
+            <br />
+            <label
+              >Membership Level
+              <select name="membership" id="membership">
+                <option>--Please Select One---</option>
+                <option value="non-profit">Non-Profit Organization</option>
+                <option value="bronze">Bronze Membership</option>
+                <option value="silver">Silver Membership</option>
+                <option value="gold">Gold Membership</option>
+              </select></label
+            >
+            <br />
+            <label
+              >Business / Organizations Description
+              <textarea name="description" id="description" rows="4"></textarea>
+            </label>
+            <input type="hidden" id="timestamp" name="timestamp" />
+          </fieldset>
+
+          <input id="submit" type="submit" value="Submit Application" />
+        </form>
+        <div id="membership-info">
+          <section id="NP">
+            <h2>Membership Level Benefits</h2>
+            <p>NP Membership (Non-Profit):</p>
+
+            <li>No membership fee required</li>
+            <li>
+              Opportunities to network and collaborate with other non-profit
+              entities.
+            </li>
+            <li>
+              Featured promotion of your organization's events on our platform.
+            </li>
+            <li>Discounted rates for chamber-hosted events and programs.</li>
+          </section>
+          <section id="bronze">
+            <p>Bronze Membership</p>
+            <li>Invitation to exclusive networking events and seminars.</li>
+            <li>
+              Discounted rates for chamber-sponsored workshops and training
+              sessions.
+            </li>
+            <li>
+              Opportunity for occasional spotlight features on our homepage.
+            </li>
+          </section>
+          <section id="silver">
+            <p>Silver Membership:</p>
+
+            <li>
+              Priority listing and enhanced visibility on our website directory.
+            </li>
+            <li>
+              Access to premium networking events with industry leaders and
+              influencers.
+            </li>
+            <li>
+              Exclusive discounts on advertising packages for increased
+              exposure.
+            </li>
+            <li>
+              Complimentary admission to select chamber-sponsored events and
+              workshops.
+            </li>
+          </section>
+          <section>
+            <p>Gold Membership</p>
+
+            <li>
+              Prominent placement and priority listing on our website directory,
+              ensuring maximum visibility.
+            </li>
+            <li>
+              VIP access to exclusive networking receptions and high-profile
+              events.
+            </li>
+            <li>
+              Premium advertising opportunities, including featured spotlights
+              on our homepage.
+            </li>
+            <li>
+              Complimentary admission to all chamber-sponsored events,
+              workshops, and seminars.
+            </li>
+            <li>
+              Personalized support from chamber staff to address your specific
+              business needs and goals.
+            </li>
+          </section>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <img src="images/logo.webp" alt="Rexburg Logo" />
+      <h4>Rexburg Chamber Of Commerce</h4>
+      <p>Address: 1357 w yellowstone hw Rexburg, ID 83440</p>
+      <p>Rexburgchamberofcommerce@gmail.com</p>
+      <p>555-555-5555</p>
+      <p id="year" class="class-info">&copy;</p>
+      <p class="class-info">Tarin James</p>
+      <p class="class-info">WDD 230</p>
+      <p id="lastModified">Last Modification:</p>
+    </footer>
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/hamburgermenu.js"></script>
+    <script src="scripts/dark-mode.js"></script>
+    <script src="scripts/windchill.js"></script>
+    <script src="scripts/timestamp.js"></script>
+  </body>
+</html>

@@ -419,8 +419,6 @@ input:checked + .slider:before {
 
 }
 
-
-
 #history {
   background-color: var(--thistle);
   border-radius: 10px;
@@ -498,4 +496,50 @@ input:checked + .slider:before {
 
 #events li {
   font-size: larger;
+}
+
+#join-title {
+  text-align: center;
+  background-color: var(--thistle);
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.join-form fieldset {
+  background-color: var(--thistle);
+  margin: 0;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+#description {
+  width: 100%;
+}
+
+.join-form legend {
+  color: black;
+  background-color: var(--thistle);
+  border-radius: 6px;
+  padding: 4px;
+}
+
+.join-form {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.join-form input {
+  margin: 5px;
+}
+
+#submit {
+  padding: 5px;
+  margin: 5px auto;
+  border-radius: 10px;
+}
+
+#membership-info {
+  display: none;
 }
