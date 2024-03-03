@@ -126,5 +126,10 @@
         font-weight: bold;
     }
 
+    #join-title {
+        margin: 10px 350px;
+        padding: 10px;
+    }
+
     
 }
