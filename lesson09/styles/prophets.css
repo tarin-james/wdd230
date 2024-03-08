@@ -1,0 +1,25 @@
+#cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    text-align: center;
+    gap: 5px;
+}
+
+section {
+    background-color:beige;
+    border: 1px solid black;
+    box-shadow: 0 0 10px #777;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    box-shadow: 0 0 30px #777;
+}
+
+body{
+    margin: 0;
+    padding: 8px;
+}
