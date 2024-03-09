@@ -1,0 +1,96 @@
+{
+    "companies": [
+      {
+        "name": "Righteous Slice",
+        "links": [
+          {
+            "address": "175 W. 200 S #100, Rexburg, ID 83440",
+            "number": "208-820-4597",
+            "icon": "images/righteous-slice.webp",
+            "membership": "Gold",
+            "url": "https://www.righteousslice.com/",
+            "title": "Righteous Slice"
+          }       
+        ]
+      },
+      {
+        "name": "Alpine Jewelers",
+        "links": [
+          {
+            "address": "7 W Main St, Rexburg, ID 83440",
+            "number": "208-359-9776",
+            "icon": "images/alpine-logo.webp",
+            "membership": "Gold",
+            "url": "https://www.alpinejewelers.com/",
+            "title": "Alpine Jewelers"
+          }
+        ]
+      },
+      {
+        "name": "The Rock Gym",
+        "links": [
+          {
+            "address": "871 Jet Stream Dr, Rexburg, ID 83440",
+            "number": "208-252-9973",
+            "icon": "images/the-rock-gym.webp",
+            "membership": "Bronze",
+            "url": "https://www.therockgymrexburg.com/",
+            "title": "The Rock Gym"
+          }
+        ]
+      },
+      {
+        "name": "Red Rabbit Grill",
+        "links": [
+          {
+            "address": "155 W Main St #8, Rexburg, ID 83440",
+            "number": "208-715-0002",
+            "icon": "images/red-rabbit-grill.webp",
+            "membership": "Silver",
+            "url": "https://www.redrabbitgrill.com/rexburg-home",
+            "title": "Red Rabbit Grill"
+          }
+        ]
+      },
+      {
+        "name": "Blisters BBQ",
+        "links": [
+          {
+            "address": "15 N 12th W, Rexburg, ID 83440",
+            "number": "208-356-3965",
+            "icon": "images/blisters.webp",
+            "membership": "Bronze",
+            "url": "https://blistersbbq.com/",
+            "title": "Blisters BBQ"
+          }
+        ]
+      },
+      {
+        "name": "The Hickory",
+        "links": [
+          {
+            "address": "485 N 2nd E, Rexburg, ID 83440",
+            "number": "208-359-2328",
+            "icon": "images/the-hickory.webp",
+            "membership": "Silver",
+            "url": "https://www.thehickorybbq.com/",
+            "title": "The Hickory"
+          }
+        ]
+      },
+      {
+        "name": "Idaho Central Credit Union",
+        "links": [
+          {
+            "address": "175 W 2nd S Ste 104, Rexburg, ID 83440",
+            "number": "208-478-3300",
+            "icon": "images/iccu.webp",
+            "membership": "Gold",          
+            "url": "https://www.iccu.com/",
+            "title": "Idaho Centeral Credit Union"
+          }
+        ]
+      }    
+    ]
+  }
+  
