@@ -127,9 +127,45 @@
     }
 
     #join-title {
-        margin: 10px 350px;
         padding: 10px;
     }
 
+    #switcher {
+        display: block;
+        padding: 5px;
+        margin: 5px auto;
+        border-radius: 10px;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        text-align: center;
+        gap: 5px;
+    }
+
+    .column {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .column .card  {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     
+    }
+
+    .column img {
+       grid-column: 2;
+       grid-row: 1/6;
+
+    }
+
+    .column * {
+        grid-column: 1;
+        text-align: center;
+    }
+
+
 }

@@ -499,6 +499,7 @@ input:checked + .slider:before {
 }
 
 #join-title {
+
   text-align: center;
   background-color: var(--thistle);
   margin: 10px;
@@ -541,5 +542,39 @@ input:checked + .slider:before {
 }
 
 #membership-info {
+  display: none;
+}
+
+#directory-title {
+  text-align: center;
+}
+
+hr {
+  background-color: #07090f;
+  border-color: black;
+
+}
+
+#company-info {
+  text-align: center;
+}
+
+#company-info img {
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.card {
+  background-color: var(--thistle);
+  margin: 10px;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+#company-info h2 {
+  padding-top: 20px;
+}
+
+#switcher {
   display: none;
 }

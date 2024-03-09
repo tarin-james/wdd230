@@ -90,4 +90,7 @@
         grid-column: 4;
     }
     
+    #join-title {
+        margin: 10px 100px;
+    }
 }
