@@ -6,8 +6,7 @@
         "number": "208-820-4597",
         "icon": "images/righteous-slice.webp",
         "membership": "Gold",
-        "url": "https://www.righteousslice.com/",
-        "title": "Righteous Slice"
+        "url": "https://www.righteousslice.com/"
       },
       {
         "name": "Alpine Jewelers",
@@ -15,8 +14,7 @@
         "number": "208-359-9776",
         "icon": "images/alpine-logo.webp",
         "membership": "Gold",
-        "url": "https://www.alpinejewelers.com/",
-        "title": "Alpine Jewelers"
+        "url": "https://www.alpinejewelers.com/"
       },
       {
         "name": "The Rock Gym",
@@ -24,8 +22,7 @@
         "number": "208-252-9973",
         "icon": "images/the-rock-gym.webp",
         "membership": "Bronze",
-        "url": "https://www.therockgymrexburg.com/",
-        "title": "The Rock Gym"
+        "url": "https://www.therockgymrexburg.com/"
       },
       {
         "name": "Red Rabbit Grill",
@@ -33,8 +30,7 @@
         "number": "208-715-0002",
         "icon": "images/red-rabbit-grill.webp",
         "membership": "Silver",
-        "url": "https://www.redrabbitgrill.com/rexburg-home",
-        "title": "Red Rabbit Grill"
+        "url": "https://www.redrabbitgrill.com/rexburg-home"
       },
       {
         "name": "Blisters BBQ",
@@ -42,8 +38,7 @@
         "number": "208-356-3965",
         "icon": "images/blisters.webp",
         "membership": "Bronze",
-        "url": "https://blistersbbq.com/",
-        "title": "Blisters BBQ"
+        "url": "https://blistersbbq.com/"
       },
       {
           "name": "The Hickory",
@@ -51,8 +46,7 @@
           "number": "208-359-2328",
           "icon": "images/the-hickory.webp",
           "membership": "Silver",
-          "url": "https://www.thehickorybbq.com/",
-          "title": "The Hickory"
+          "url": "https://www.thehickorybbq.com/"
       },
       {
         "name": "Idaho Central Credit Union",
@@ -60,8 +54,7 @@
         "number": "208-478-3300",
         "icon": "images/iccu.webp",
         "membership": "Gold",          
-        "url": "https://www.iccu.com/",
-        "title": "Idaho Centeral Credit Union"
+        "url": "https://www.iccu.com/"
       }    
     ]
   }
