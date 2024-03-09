@@ -55,7 +55,15 @@
         "icon": "images/iccu.webp",
         "membership": "Gold",          
         "url": "https://www.iccu.com/"
-      }    
+      }  ,
+      {
+        "name": "Taco Bell",
+        "address": "22 W Main St, Rexburg, ID 83440",
+        "number": "208-656-0220",
+        "icon": "images/taco-bell.webp",
+        "membership": "Silver",          
+        "url": "https://www.tacobell.com/"
+      }  
     ]
   }
   
