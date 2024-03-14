@@ -234,6 +234,18 @@ iframe {
   justify-content: center;
 }
 
+.info figure{
+  display:flex;
+  align-items: center;
+  margin: 0;
+}
+
+.info figure p {
+  display:flex;
+  align-items: center;
+  margin: 0;
+}
+
 
 @media screen and (min-width: 600px) {
   .hamburger {
