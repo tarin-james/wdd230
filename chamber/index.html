@@ -50,6 +50,10 @@
       </nav>
     </header>
     <main>
+      <div id="chamber-banner" class="banner">
+        <p>Join us for the Chamber of Commerce meet and greet on Wednesday at 7:00 p.m.!</p>
+        <span class="close-btn" onclick="closeBanner()">❌</span>
+      </div>
       <section id="hero-section">
         <div id="hero">
           <picture> </picture>
@@ -131,13 +135,23 @@
         </div>
         <div id="weather">
           <h1>Current Weather</h1>
-            <div id="weather-data">
-              <label for="current-temp">Current Temperature:</label>
-              <p id="current-temp">43°F</p>
-              <label for="wind-speed">Wind Speed:</label>
-              <p id="wind-speed">7mph</p>
-              <label for="wind-chill">Wind Chill:</label>
-              <p id="wind-chill"></p>
+
+            <p>Rexburg, Idaho</p>
+            <figure>
+              <p>
+                <img id="weather-icon" src="" alt="" /><span
+                  id="current-temp"
+                ></span>
+                &nbsp;- &nbsp;
+                <figcaption></figcaption>
+              </p>
+            </figure>
+            <div class="windchill">Wind Chill</div>
+            <p>3 Temperature Day Forecast</p>
+            <div class="forecast">
+
+            </div>
+          
             </div>
         </div>
       </section>
@@ -157,5 +171,6 @@
     <script src="scripts/hamburgermenu.js"></script>
     <script src="scripts/dark-mode.js"></script>
     <script src="scripts/windchill.js"></script>
+    <script src="scripts/banner.js"></script>
   </body>
 </html>
