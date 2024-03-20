@@ -11,9 +11,10 @@ modeButton.addEventListener("click", () => {
     header.style.color = "#fff";
     hamburger.classList.add("main-nav-toggle-white");
   } else {
-    main.style.background = "#a37c40";
+    main.style.background = "#FFFFFF";
     main.style.color = "#000";
-    header.style.background = "#98473e";
+    header.style.background = "#e1a084";
+    header.style.color = "#000";
     hamburger.style.borderColor = "#000";
     hamburger.classList.remove("main-nav-toggle-white");
   }

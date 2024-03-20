@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Golos+Text&display=swap');
 
 :root {
-  --chestnut: #98473e;
-  --thistle: #d6c3c9;
+  --chestnut: #e1a084;
+  --thistle: #BFC0C0;
   --beaver: #b49082;
-  --copper: #a37c40;
-  --rich-black: #07090f;
+  --copper: #FFFFFF;
+  --rich-black: #4F5D75;
 
   --font: "Golos Text", "sans-serif";
 }
@@ -225,7 +225,7 @@ nav a:hover {
   border: none;
   border-radius: 10px;
   background-color: var(--chestnut);
-  color: var(--thistle);
+  color: black;
 }
 
 #hero-msg button:hover {
@@ -246,7 +246,7 @@ iframe {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  text-align: left;
+  text-align: center;
   margin: 20px 10px;
   border: 2.5px solid var(--rich-black);
   border-radius: 10px;
