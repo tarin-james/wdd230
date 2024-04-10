@@ -1,0 +1,61 @@
+{
+    "rental-info": [
+      {
+        "name": "Honda Metropolitan (49cc)",
+        "type": "scooter",
+        "max-persons": "1",
+        "reservation-half-day": "$20",
+        "reservation-full-day": "$30",
+        "walk-in-half-day": "$25",
+        "walk-in-full-day": "$35"
+      },
+      {
+        "name": "Honda Dio (110cc)",
+        "type": "scooter",
+        "max-persons": "2",
+        "reservation-half-day": "$30",
+        "reservation-full-day": "$40",
+        "walk-in-half-day": "$35",
+        "walk-in-full-day": "$45"
+      },
+      {
+        "name": "Honda PCX150 (149cc)",
+        "type": "scooter",
+        "max-persons": "2",
+        "reservation-half-day": "$40",
+        "reservation-full-day": "$50",
+        "walk-in-half-day": "$45",
+        "walk-in-full-day": "$55"
+      },
+      {
+        "name": "Honda Pioneer 1000",
+        "type": "ATV",
+        "max-persons": "4",
+        "reservation-half-day": "$50",
+        "reservation-full-day": "$70",
+        "walk-in-half-day": "$60",
+        "walk-in-full-day": "$80"
+      },
+      {
+        "name": "Jeep Wrangler",
+        "specs": "Manuel Transmission with A/C",
+        "type": "jeep",
+        "max-persons": "5",
+        "reservation-half-day": "$70",
+        "reservation-full-day": "$100",
+        "walk-in-half-day": "$85",
+        "walk-in-full-day": "$125"
+      },
+      {
+        "name": "Jeep Wrangler",
+        "specs":"Manuel Transmission with Open Air",
+        "type": "jeep",
+        "max-persons": "4",
+        "reservation-half-day": "$60",
+        "reservation-full-day": "$85",
+        "walk-in-half-day": "$70",
+        "walk-in-full-day": "$90"
+      }
+    ]
+  }
+  
