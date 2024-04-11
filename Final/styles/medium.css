@@ -1,0 +1,78 @@
+@media screen and (min-width: 675px){
+
+    nav {
+        display: flex;
+        flex-direction: row;
+    }
+
+    nav a {
+        padding: 10px;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    
+
+    footer img{
+        display: flex;
+        max-width: 35%;
+        padding: 0 0 0 50px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .author {
+        text-align: center;
+    }
+
+    #address {
+        padding-top: 30px;
+        text-align: left;
+    }
+
+    #phone {
+        text-align: left;
+    }
+
+    #hero-box{
+        height: 500px;
+    }
+
+    #rental-summary {
+        margin-top: 30px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    #forecast {
+        margin-top: 30px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    #current-weather-section {
+        margin-top: 30px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    #socials {
+        margin-top: 30px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    iframe {
+        max-width: 100%;
+        margin: 20px;
+    }
+
+    #locations {
+        display: flex;
+    
+        justify-content: center;
+    }
+}
+ 

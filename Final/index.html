@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" href="images/Scooter.webp" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Tarin James" />
+    <meta property="og:title" content="Scoots Motor Scooter Rentals" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:image"
+      content="https://cdn.dealerspike.com/imglib/v1/800x600/imglib/Assets/Blog/61/dd/61dd0558-b8e5-48ee-87ca-9c0a3e189d7e.jpg"
+    />
+    <meta
+      property="og:url"
+      content="https://tarin-james.github.io/wdd230/Final/index.html"
+    />
+    <meta
+      name="description"
+      content="This site is for the Motor Scooter Rental Company Scoots"
+    />
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/medium.css" />
+    <link rel="stylesheet" href="styles/large.css" />
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <title>Scoots - Motor Rentals</title>
+  </head>
+  <body>
+    <header>
+      <h1>Scoots</h1>
+      <h2>Motor Rentals</h2>
+      <div class="hamburger">
+        <a class="main-nav-toggle" href="#main-nav"><i>Menu</i></a>
+      </div>
+      <nav class="navigation">
+        <a id="home-page" href="index.html" style="background-color: #c4ecf5"
+          >Home</a
+        >
+        <a id="rentals-page" href="rentals.html">Rentals</a>
+        <a id="reservations-page" href="reservations.html">Reservations</a>
+        <a id="contact-page" href="contact.html">Contact Us</a>
+      </nav>
+    </header>
+    <main>
+      <div id="high-banner" class="banner">
+        <p id="current-high-text">The High today will be </p>
+        <span class="close-btn" onclick="closeBanner()">❌</span>
+      </div>
+      <div id="hero-box">
+        <!-- <img src="images/hero-img.webp" alt="Image of Cozumel Beach" loading="lazy"> -->
+        <div id="hero-msg">
+          <h1>Explore Cozumel in Style with Scoots!</h1>
+          <p>Ready to cruise the beautiful island of Cozumel?</p>
+          <a id="hero-button" href="rentals.html">Rental Information</a>
+        </div>
+      </div>
+      <section id="home-content">
+        <div id="why-wait">
+          <p>
+            Why wait? Plan ahead and reserve your ride now on our website. Let's
+            scoot around paradise together! 🌴🛵 #ScootWithScoots
+          </p>
+        </div>
+        <div id="rental-summary">
+          <h3>Rentals We Have</h3>
+          <ul id="rental-items">
+            <li>Honda Metropolitan Scooter</li>
+            <li>Honda Dio Scooter</li>
+            <li>Honda PCX150 Scooter</li>
+            <li>Honda Pioneer ATV</li>
+            <li>Jeep Wrangler - 4 Door with A/C</li>
+            <li>Jeep Wrangler - 2 Door</li>
+          </ul>
+        </div>
+
+        <div id="current-weather-section">
+          <h4>Weather</h4>
+          <p id="current-temp-text">Temperature -</p>
+          <p id="current-humidity">Humidity -</p>
+         
+        </div>
+        <div id="forecast">
+          <h5>Tomorrows Forecast at 15:00</h5>
+          <p id="forecast-temp">Temperature -</p>
+          <p id="forecast-humidity">Humidity -</p>
+       
+        </div>
+        <div id="socials">
+          <h6>Follow Us on Social Media!</h6>
+          <a id="insta" href="https://instagram.com"
+            ><img src="images/instagram-logo.webp" alt="Instagram Logo"
+          /></a>
+          <a id="x" href="https://twitter.com"
+            ><img src="images/twitter-logo.webp" alt="X Logo"
+          /></a>
+          <a id="facebook" href="https://www.facebook.com"
+            ><img src="images/facebook-logo.webp" alt="Facebook Logo"
+          /></a>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <img
+        src="images/Cozumel-flag.webp"
+        alt="Image of Cozumel Flag"
+        loading="lazy"
+      />
+      <p id="address">
+        Av Lic Benito Juárez entre 10 av y 15 av, Centro, 77600 Cozumel, Q.R.,
+        Mexico
+      </p>
+      <a id="footer-contact" href="contact.html">Contact Us</a>
+      <p id="phone">Phone - 555-555-5555</p>
+      <p id="year" class="class-info">&copy;</p>
+      <p class="author">Tarin James - WDD 230</p>
+    </footer>
+    <script src="scripts/hamburgermenu.js"></script>
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/weather.js"></script>
+  </body>
+</html>

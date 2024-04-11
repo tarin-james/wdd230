@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" href="images/Scooter.webp" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Tarin James" />
+    <meta property="og:title" content="Scoots Motor Scooter Rentals" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:image"
+      content="https://cdn.dealerspike.com/imglib/v1/800x600/imglib/Assets/Blog/61/dd/61dd0558-b8e5-48ee-87ca-9c0a3e189d7e.jpg"
+    />
+    <meta
+      property="og:url"
+      content="https://tarin-james.github.io/wdd230/Final/index.html"
+    />
+    <meta
+      name="description"
+      content="Contact page for the Motor Scooter Rental Company Scoots"
+    />
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <title>Scoots - Motor Rentals</title>
+  </head>
+  <body>
+    <header>
+        <h1>Scoots</h1>
+        <h2>Motor Rentals</h2>
+        <div class="hamburger">
+          <a class="main-nav-toggle" href="#main-nav"><i>Menu</i></a>
+        </div>
+        <!-- <img src="images/Cozumel-flag.webp" alt=""> -->
+        <nav class="navigation">
+            <a id='home-page' href="index.html">Home</a>
+            <a id="rentals-page" href="rentals.html">Rentals</a>
+            <a id="reservations-page" href="reservations.html">Reservations</a>
+            <a id="contact-page" href="contact.html" style="background-color: #c4ecf5">Contact Us</a>
+        </nav>
+    </header>
+    <main id="contact-main">
+        <h1>Contact Information</h1>
+        <div id="contact-info">
+            <p id="phone-number">Phone Number - 555-555-5555</p>
+            <p id="email">Email - scootsrentals@gmail.com</p>
+        </div>
+        <div id="contact-form">
+          <h2>We Will Get Back To You As Soon As Possible!</h2>
+          <p>You can fill out this form with any questions or concerns you may have!</p>
+            <form action="reserve-thanks.html">
+              <fieldset>
+                <legend>Contact Us</legend>
+                <label>First Name <input type="text" name="fname-contact" id="fname-contact" required></label>
+                <label>Last Name <input type="text" name="lname-contact" id="lname-contact" required></label>
+                <label>Phone Number <input type="tel" name="contact-phone" id="contact-phone"></label>
+                <label>Email <input type="email" name="contact-email" id="contact-email"></label>
+                <label>Comments <textarea name="comments" id="comments" ></textarea></label>
+              </fieldset>
+              <input id="send-button" type="submit" value="Send ">
+            </form>
+        </div>
+        <h2 id="locations-title">Locations</h2>
+        <div id="locations">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50285.50936294844!2d-86.96694268479719!3d20.4860131494882!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e59cdd260587d%3A0x120b021b5e9700cf!2s15%20Avenida%20Nte.%2010%2C%20Centro%2C%2077600%20Cozumel%2C%20Q.R.%2C%20Mexico!5e0!3m2!1sen!2sus!4v1712717257492!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25142.098266079494!2d-86.94152093357873!3d20.490016591498197!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e5933af5ca8f7%3A0x3b757c4570cdb883!2sEl%20Cielo%20Cozumel!5e0!3m2!1sen!2sus!4v1712717371367!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </main>
+    <footer>
+        <img src="images/Cozumel-flag.webp" alt="Image of Cozumel Flag" loading="lazy">
+        <p id="address">Av Lic Benito Juárez entre 10 av y 15 av, Centro, 77600 Cozumel, Q.R., Mexico</p>
+        <a id="footer-contact" href="contact.html">Contact Us</a>
+        <p id="phone">Phone - 555-555-5555</p>
+        <p id="year" class="class-info">&copy;</p>
+        <p class="author">Tarin James - WDD 230</p>
+      </footer>
+    <script src="scripts/hamburgermenu.js"></script>
+    <script src="scripts/getdates.js"></script>
+  </body>
+</html>

@@ -1,0 +1,33 @@
+@media screen and (min-width: 900px) {
+    #home-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #socials {
+        grid-column: 1/3;
+    }
+
+    #why-wait {
+        margin-top: 30px;
+        margin-left: 100px;
+        margin-right: 100px;
+        padding: 50px;
+    }
+
+    #socials img {
+        max-width: 20%;
+    }
+
+    iframe {
+        max-width: 100%;
+        margin: 20px;
+    }
+
+    #locations {
+        display: flex;
+    
+        justify-content: center;
+    }
+
+}
